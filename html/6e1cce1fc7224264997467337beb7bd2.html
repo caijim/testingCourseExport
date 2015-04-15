@@ -1,0 +1,71 @@
+<h2>Code for the Spanish drag and drop problem</h2>
+<script>
+function unhide(spanID) {
+                                                    var item = document.getElementById(spanID);
+                                                         if (item) {
+                                                              item.className=(item.className=='hidden')?'unhidden':'hidden';
+                                                         }
+                                                }
+                                           
+                                            function hide(spanID) {
+                                                    var item = document.getElementById(spanID);
+                                                         if (item) {
+                                                            item.className='hidden';
+                                                         }
+                                                }
+                                                function check(RadioID)
+                                                {
+                                                  document.getElementById(RadioID).checked=true;
+                                                }
+                                               
+                                                function changeHiddenInput (objDropDown, hiddenID)
+                                                {
+                                                var objHidden = document.getElementById(hiddenID);
+                                                var strUser = objDropDown.options[objDropDown.selectedIndex].value;
+                                                objHidden.value = strUser;
+                                                }
+</script>
+
+<p></p>
+<p>If you'd like to see the code that created this problem, click on <span onclick="unhide('spanish_1')" style="cursor: pointer; color: blue; text-decoration: underline;">this link</span>. Note that for each draggable id, which corresponds to the words in the horizontal table known as the slider below the image, there is a specific correct location where the words can go.  Specifying that is done by giving the coordinates (h for height and w for width, followed by x for starting horizontal point and y for starting vertical point), in relation to the image you are using. 
+The code also shows how to create a one-to-one relationship between a correct draggable bit of text for a correct portion of the image.</p>
+<p>
+    <div class="hidden" id="spanish_1" style="padding-bottom: 1em;">      
+      <pre>
+        <code>
+   &lt;customresponse&gt;
+     &lt;drag_and_drop_input img=&quot;https://class.stanford.edu/c4x/StanfordOnline/OpenEdX/asset/clothing-items.jpg&quot; label_bg_color=&quot;rgb(222, 222, 222)&quot; no_labels=&quot;true&quot; one_per_target=&quot;true&quot; target_outline=&quot;true&quot;&gt;
+       &lt;draggable id=&quot;1&quot; label=&quot;cintur&oacute;n&quot;/&gt;
+       &lt;draggable id=&quot;2&quot; label=&quot;camisa&quot;/&gt;
+       &lt;draggable id=&quot;3&quot; label=&quot;camiseta sin mangas&quot;/&gt;
+       &lt;draggable id=&quot;4&quot; label=&quot;cigarillo&quot;/&gt;
+       &lt;draggable id=&quot;5&quot; label=&quot;cuchillo&quot;/&gt;
+       &lt;draggable id=&quot;6&quot; label=&quot;gafas&quot;/&gt;
+       &lt;draggable id=&quot;7&quot; label=&quot;gorra de b&eacute;isbol&quot;/&gt;
+       &lt;draggable id=&quot;8&quot; label=&quot;pantalones&quot;/&gt;
+       &lt;draggable id=&quot;9&quot; label=&quot;pantalones cortos&quot;/&gt;
+       &lt;draggable id=&quot;10&quot; label=&quot;pistola&quot;/&gt;
+       &lt;draggable id=&quot;11&quot; label=&quot;zapato&quot;/&gt;
+       &lt;target h=&quot;100&quot; id=&quot;t1&quot; w=&quot;130&quot; x=&quot;485&quot; y=&quot;215&quot;/&gt;
+       &lt;target h=&quot;130&quot; id=&quot;t2&quot; w=&quot;138&quot; x=&quot;34&quot; y=&quot;5&quot;/&gt;
+       &lt;target h=&quot;170&quot; id=&quot;t3&quot; w=&quot;100&quot; x=&quot;505&quot; y=&quot;5&quot;/&gt;
+       &lt;target h=&quot;70&quot; id=&quot;t4&quot; w=&quot;70&quot; x=&quot;65&quot; y=&quot;180&quot;/&gt;
+       &lt;target h=&quot;198&quot; id=&quot;t5&quot; w=&quot;30&quot; x=&quot;0&quot; y=&quot;70&quot;/&gt;
+       &lt;target h=&quot;80&quot; id=&quot;t6&quot; w=&quot;180&quot; x=&quot;280&quot; y=&quot;135&quot;/&gt;
+       &lt;target h=&quot;100&quot; id=&quot;t7&quot; w=&quot;130&quot; x=&quot;320&quot; y=&quot;5&quot;/&gt;
+       &lt;target h=&quot;210&quot; id=&quot;t8&quot; w=&quot;100&quot; x=&quot;175&quot; y=&quot;135&quot;/&gt;
+       &lt;target h=&quot;100&quot; id=&quot;t9&quot; w=&quot;120&quot; x=&quot;185&quot; y=&quot;5&quot;/&gt;
+       &lt;target h=&quot;120&quot; id=&quot;t10&quot; w=&quot;170&quot; x=&quot;280&quot; y=&quot;230&quot;/&gt;
+       &lt;target h=&quot;80&quot; id=&quot;t11&quot; w=&quot;160&quot; x=&quot;0&quot; y=&quot;271&quot;/&gt;
+     &lt;/drag_and_drop_input&gt;
+     &lt;answer type=&quot;loncapa/python&quot;&gt;
+correct_answer = {'1': 't1', '2': 't2', '3': 't3', '4': 't4', '5': 't5', '6': 't6', '7': 't7', '8': 't8', '9': 't9', '10': 't10', '11': 't11'}
+if draganddrop.grade(submission[0], correct_answer):
+    correct = ['correct']
+else:
+    correct = ['incorrect']
+	&lt;/answer&gt;
+  &lt;/customresponse&gt;
+  		</code>
+  	  </pre>
+  	</div>

@@ -1,0 +1,15 @@
+<problem display_name="Checkboxes" markdown="Which playback speeds are available in the video component by default?&#10;&gt;&gt;Select all that apply.&lt;&lt;&#10;&#10;[x] 0.75&#10;[ ] 18&#10;[x] 1.25&#10;[x] 1.0&#10;[ ] 2&#10;">
+<p>Which playback speeds are available in the video component by default?</p>
+<p>Select all that apply.</p>
+<choiceresponse>
+  <checkboxgroup label="Select all that apply." direction="vertical">
+    <choice correct="true">0.75</choice>
+    <choice correct="false">18</choice>
+    <choice correct="true">1.25</choice>
+    <choice correct="true">1.0</choice>
+    <choice correct="false">2</choice>
+  </checkboxgroup>
+</choiceresponse>
+
+
+</problem>

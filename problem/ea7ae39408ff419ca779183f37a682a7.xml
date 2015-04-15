@@ -1,0 +1,24 @@
+<problem display_name="Dropdown" markdown="&gt;&gt;Translation between Dropdown and __________ is extremely straightforward:&lt;&lt;&#10;&#10;[[(Multiple Choice), Text Input, Numerical Input, External Response, Image Response]]&#10;&#10;&gt;&gt;Which ones are correct?&lt;&lt;&#10;&#10;( ) incorrect&#10;( ) incorrect&#10;(x) correct&#10;&#10;[x] correct&#10;[ ] incorrect&#10;[x] correct&#10;" minutes_allowed="10" minutes_before_warning="3">
+<p>Translation between Dropdown and __________ is extremely straightforward:</p>
+<optionresponse>
+  <optioninput label="Translation between Dropdown and __________ is extremely straightforward:" options="('Multiple Choice','Text Input','Numerical Input','External Response','Image Response')" correct="Multiple Choice"/>
+</optionresponse>
+
+<p>Which ones are correct?</p>
+<multiplechoiceresponse>
+  <choicegroup label="Which ones are correct?" type="MultipleChoice">
+    <choice correct="false">incorrect</choice>
+    <choice correct="false">incorrect</choice>
+    <choice correct="true">correct</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+<choiceresponse>
+  <checkboxgroup direction="vertical">
+    <choice correct="true">correct</choice>
+    <choice correct="false">incorrect</choice>
+    <choice correct="true">correct</choice>
+  </checkboxgroup>
+</choiceresponse>
+
+
+</problem>

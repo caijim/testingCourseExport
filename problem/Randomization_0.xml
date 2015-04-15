@@ -1,0 +1,27 @@
+<problem url_name="Randomization_0" display_name="Randomization" markdown="null" rerandomize="onreset" show_reset_button="true" showanswer="finished">
+  <script type="loncapa/python">
+n1 = random.randrange(5,589,19)
+n2 = random.randrange(2,500,5)
+total = n1 / n2
+  </script>
+  <p>Use randomized variables n1 and n2 in any part of this exercise to create a randomized question for your students, where the randomized variables will differ when a student either submits their response, clicks to reset the problem, or when a different student looks at the same problem (depending on how you've set it up). This one is set up so that whenever you submit an answer, you can click "Reset" afterwards to get a new equation. </p>
+  <p>
+    <img height="150" src="/static/randomization_setting_in_problem.jpg" width="600"/>
+  </p>  
+  <p>The numbers in n1 indicate that the lowest number you might ever see for n1 is 5, the highest is 589, and the steps in between these values is 19.</p>
+  <p>
+    <img src="/static/python_cheat_screen.jpg"/>
+  </p>  
+  <p>Make sure to have at least two randrange values, and also to visit the Settings section of your problem and set the "Randomization" value to something other than "Never."</p>
+
+  <p>What is $n1 divided by $n2?</p>
+  <numericalresponse answer="$total">
+    <responseparam default="2%" type="tolerance"/>
+    <textline/>
+  </numericalresponse>
+  <solution>
+    <div><p>Using MathJax, you can see the correct corresponding randomized answer below:</p>
+       \[ $n1 / $n2 = $total \]
+     </div>
+  </solution>
+</problem>

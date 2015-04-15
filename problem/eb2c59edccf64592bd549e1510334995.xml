@@ -1,0 +1,20 @@
+<problem display_name="Checkboxes" markdown="A checkbox question asks you to select all correct answers. This one doesn't have a limit on the number of attempts you have, so it's ok to click Submit as many times as you need.&#10;&#10;&gt;&gt;Which are the primary colors?&lt;&lt;&#10;&#10;[ ] white&#10;[x] red&#10;[ ] orange&#10;[ ] red-orange&#10;[x] yellow&#10;[ ] green&#10;[x] blue&#10;[ ] purple&#10;[ ] puce&#10;" showanswer="attempted">
+<p>A checkbox question asks you to select all correct answers. This one doesn't have a limit on the number of attempts you have, so it's ok to click Submit as many times as you need.</p>
+
+<p>Which are the primary colors?</p>
+<choiceresponse>
+  <checkboxgroup label="Which are the primary colors?" direction="vertical">
+    <choice correct="false">white</choice>
+    <choice correct="true">red</choice>
+    <choice correct="false">orange</choice>
+    <choice correct="false">red-orange</choice>
+    <choice correct="true">yellow</choice>
+    <choice correct="false">green</choice>
+    <choice correct="true">blue</choice>
+    <choice correct="false">purple</choice>
+    <choice correct="false">puce</choice>
+  </checkboxgroup>
+</choiceresponse>
+
+
+</problem>

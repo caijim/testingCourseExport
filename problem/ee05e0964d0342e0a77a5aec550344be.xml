@@ -1,0 +1,14 @@
+<problem display_name="Blank Common Problem" markdown="&gt;&gt;What Apple device competed with the portable CD player?&lt;&lt;&#10;     (!) The iPad&#10;     ( ) Napster&#10;     (x) The iPod&#10;     ( ) The vegetable peeler&#10;     ( ) All of the above">
+<p>What Apple device competed with the portable CD player?</p>
+<multiplechoiceresponse>
+  <choicegroup label="What Apple device competed with the portable CD player?" type="MultipleChoice" shuffle="true">
+    <choice correct="false">The iPad</choice>
+    <choice correct="false">Napster</choice>
+    <choice correct="true">The iPod</choice>
+    <choice correct="false">The vegetable peeler</choice>
+    <choice correct="false">All of the above</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+
+</problem>

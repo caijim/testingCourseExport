@@ -1,0 +1,68 @@
+<problem show_correctness="never" display_name="Not Working As Desired Yet: Free Text Response Question with Partial Credit Possible" markdown="null" weight="10.0">
+<label>Please submit your essay here.</label> <!-- You can change this text, but this is a reasonable default. -->
+<script type="text/python" system_path="python_lib">
+
+import re
+def short_response(expect, ans):
+  print expect, ans
+  words = ans.split()
+  return len(words) &gt; 10
+  expect = float(expect)
+  if len(words) &amp;gt; 10:
+    return True
+  else:
+    return False
+def hint_fn(expect, ans):
+  words = ans.split()
+  print 'hint_fn called, ans=', ans
+  hint = ''
+  if len(words) &lt;= 10:
+    hint = 'Sorry, your response is too short. Please try again.'
+    newgrade = 0.2
+  elif len(words) &gt;= 200:
+    hint = 'Oops, could you aim for something a little smaller than 200 words? Thank you.'
+    newgrade = 0.5
+  else:
+    hint = 'Thank you for your submission.'
+    newgrade = 1
+  if hint:
+    hint = "&lt;font color='blue'&gt;Hint: {0}&lt;/font&gt;".format(hint)
+    new_cmap.set_hint_and_mode(aid,hint,'always')
+    new_cmap.set_property(aid,'npoints',newgrade)
+
+</script>
+  <span id="short_response_question_1"/> <!-- Edit this id, for each problem -->
+<p>  </p><script type="text/javascript">
+    /* The object here is to replace the single line input with a textarea */
+  (function() {
+    var elem = $("#short_response_question_1")
+        .closest("div.problem")
+        .find(":text");
+    var label = $("#short_response_question_1")
+        .closest("div.problem")
+        .find('label');
+    label.attr('for', elem.attr('id'));
+    var description = $("#short_response_question_1")
+        .closest("div.problem")
+        .find('.problem-description');
+    description.attr('id', elem.attr('id')+'-description');
+    /* There's CSS in the LMS that controls the height, so we have to override here */
+    var textarea = $('<textarea style="height:150px" rows="20" cols="70"/>');
+    
+    //This is just another way to do an iterator in JS
+    for (attrib in {'id':null, 'name':null}) {
+        textarea.attr(attrib, elem.attr(attrib));
+    }
+    textarea.attr('aria-describedby', elem.attr('id')+'-description');
+    /* copy over the submitted value and give an aria description*/
+    textarea.val(elem.val());
+    elem.replaceWith(textarea);
+    /* clear out echoed text */
+    textarea.siblings(".status").text("");
+    
+  })();
+  </script>
+  <customresponse cfn="short_response"><!-- This 'cfn' name is the name of the python grading function above -->
+    <textline/>
+  </customresponse>
+</problem>
