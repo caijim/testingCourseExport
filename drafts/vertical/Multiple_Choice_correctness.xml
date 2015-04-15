@@ -1,0 +1,4 @@
+<vertical display_name="Multiple Choice correctness" parent_url="block-v1:testing+demo+course+type@sequential+block@Hide_correctness" index_in_children_list="1">
+  <html url_name="For_Multiple_Choice"/>
+  <problem url_name="Multiple_Choice_3"/>
+</vertical>

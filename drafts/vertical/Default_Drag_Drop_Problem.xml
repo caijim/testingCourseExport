@@ -1,0 +1,5 @@
+<vertical display_name="Default Drag &amp; Drop Problem" parent_url="block-v1:testing+demo+course+type@sequential+block@Drag_and_Drop_1" index_in_children_list="0">
+  <html url_name="__8"/>
+  <problem url_name="Default_Drag_and_Drop_Problem"/>
+  <problem url_name="Default_Drag_and_Drop_Problem_with_Outline"/>
+</vertical>

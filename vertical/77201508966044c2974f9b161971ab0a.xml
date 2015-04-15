@@ -1,8 +1,8 @@
 <vertical display_name="Unit">
-  <openassessment url_name="44bb63a562c34a6dafe290f7db74d006" submission_start="2001-01-01T00:00:00+00:00" submission_due="2029-01-01T00:00:00+00:00" allow_file_upload="True" allow_latex="False">
+  <openassessment url_name="44bb63a562c34a6dafe290f7db74d006" submission_start="2001-01-01T00:00:00" submission_due="2029-01-01T00:00:00" allow_file_upload="True" allow_latex="False">
     <title></title>
     <assessments>
-      <assessment name="peer-assessment" must_grade="1" must_be_graded_by="1" start="2001-01-01T00:00:00+00:00" due="2029-01-01T00:00:00+00:00" track_changes=""/>
+      <assessment name="peer-assessment" must_grade="1" must_be_graded_by="1" start="2001-01-01T00:00:00" due="2029-01-01T00:00:00" track_changes=""/>
     </assessments>
     <rubric>
       <prompt>    Censorship in the Libraries

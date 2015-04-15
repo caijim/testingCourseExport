@@ -1,0 +1,7 @@
+<vertical display_name="Custom Multiple Choice Problems" parent_url="block-v1:testing+demo+course+type@sequential+block@Multiple_Choice_Problems" index_in_children_list="1">
+  <html url_name="Custom_Multiple_Choice_Problems_0"/>
+  <problem url_name="Q1_2"/>
+  <problem url_name="Q2_1"/>
+  <problem url_name="Q3"/>
+  <problem url_name="Q4"/>
+</vertical>

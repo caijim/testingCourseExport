@@ -1,8 +1,8 @@
 <vertical display_name="testing something with track changes">
-  <openassessment url_name="3d3f898820d2409b855cd28ffdc11a93" submission_start="2001-01-01T00:00:00+00:00" submission_due="2029-01-01T00:00:00+00:00" allow_file_upload="False" allow_latex="False">
+  <openassessment url_name="3d3f898820d2409b855cd28ffdc11a93" submission_start="2001-01-01T00:00:00" submission_due="2029-01-01T00:00:00" allow_file_upload="False" allow_latex="False">
     <title>testing...</title>
     <assessments>
-      <assessment name="peer-assessment" must_grade="1" must_be_graded_by="1" start="2001-01-01T00:00:00+00:00" due="2029-01-01T00:00:00+00:00" track_changes="https://d5j76nbt6pruj.cloudfront.net/ice-master.min.js"/>
+      <assessment name="peer-assessment" must_grade="1" must_be_graded_by="1" start="2001-01-01T00:00:00" due="2029-01-01T00:00:00" track_changes="https://d5j76nbt6pruj.cloudfront.net/ice-master.min.js"/>
     </assessments>
     <rubric>
       <prompt>    Write anything.

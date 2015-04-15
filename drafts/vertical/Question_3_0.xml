@@ -1,0 +1,4 @@
+<vertical display_name="Question #3" parent_url="block-v1:testing+demo+course+type@sequential+block@Conditional_Quiz" index_in_children_list="2">
+  <conditional url_name="conditional_91e42aed4801"/>
+  <conditional url_name="conditional_651426e8626f"/>
+</vertical>
