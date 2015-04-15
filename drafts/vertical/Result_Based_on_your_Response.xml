@@ -1,0 +1,4 @@
+<vertical display_name="Result Based on your Response" parent_url="block-v1:testing+demo+course+type@sequential+block@Understanding_Conditionals" index_in_children_list="2">
+  <conditional url_name="conditional_4f33eb91a47d"/>
+  <conditional url_name="conditional_b5e5cf9fd6c3"/>
+</vertical>

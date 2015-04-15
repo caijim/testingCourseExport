@@ -1,28 +1,27 @@
 <problem display_name="Question using Answer Pool" markdown="null" show_reset_button="true">
   <p>What Apple devices let you carry your digital music library in your pocket?</p>
   <multiplechoiceresponse>
-   <choicegroup type="MultipleChoice" answer-pool="4">
-     <choice correct="false">The iPad</choice>
-     <choice correct="false">Napster</choice>
-     <choice correct="true" explanation-id="iPod">The iPod</choice>
-     <choice correct="false">The vegetable peeler</choice>
-     <choice correct="false">The iMac</choice>
-     <choice correct="true" explanation-id="iPhone">The iPhone</choice>
-   </choicegroup>
+    <choicegroup type="MultipleChoice" answer-pool="4">
+      <choice correct="false">The iPad</choice>
+      <choice correct="false">Napster</choice>
+      <choice correct="true" explanation-id="iPod">The iPod</choice>
+      <choice correct="false">The vegetable peeler</choice>
+      <choice correct="false">The iMac</choice>
+      <choice correct="true" explanation-id="iPhone">The iPhone</choice>
+    </choicegroup>
   </multiplechoiceresponse>
-
-   <solutionset>
-       <solution explanation-id="iPod">
-       <div class="detailed-solution">
-           <p>Explanation</p>
-           <p>Yes, the iPod is Apple's portable digital music player.</p>
-       </div>
-       </solution>
-       <solution explanation-id="iPhone">
-       <div class="detailed-solution">
-           <p>Explanation</p>
-           <p>In addition to being a cell phone, the iPhone can store and play your digital music.</p>
-       </div>
-       </solution>
-   </solutionset>
+  <solutionset>
+    <solution explanation-id="iPod">
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Yes, the iPod is Apple's portable digital music player.</p>
+      </div>
+    </solution>
+    <solution explanation-id="iPhone">
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>In addition to being a cell phone, the iPhone can store and play your digital music.</p>
+      </div>
+    </solution>
+  </solutionset>
 </problem>

@@ -1,0 +1,5 @@
+<vertical display_name="Quiz for A/B testing" parent_url="block-v1:testing+demo+course+type@sequential+block@A_B_Test_with_a_Subsection_containing_a_quiz" index_in_children_list="0">
+  <problem url_name="Dropdown_0"/>
+  <problem url_name="Checkboxes_2"/>
+  <problem url_name="Multiple_Choice_0"/>
+</vertical>

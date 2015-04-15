@@ -1,4 +1,4 @@
-<vertical display_name="Question with Answer Pools" parent_url="i4x://StanfordOnline/OpenEdX/sequential/d77cae11c62249aaa04191e856374db5" index_in_children_list="0">
+<vertical display_name="Question with Answer Pools" parent_url="block-v1:testing+demo+course+type@sequential+block@d77cae11c62249aaa04191e856374db5" index_in_children_list="0">
   <html url_name="e6dccd813fc54a43b171f09e035b9c56"/>
   <problem url_name="85b777f5ca914579ae31019d70d2f55e"/>
 </vertical>
